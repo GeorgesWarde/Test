@@ -87,7 +87,7 @@ margin-left:85px;
     margin-left:44px;
 }
 }
-@media(max-width:1030px){
+@media(max-width:1042px){
     .sameLign{
         display: inline-block;
     margin-left:36px;
@@ -188,6 +188,20 @@ margin-left:85px;
         font-size: 8px;
     }
 }
+@media(max-width:365px){
+    .sameLign{
+        font-size: 7px;
+    }
+}
+@media(max-width:405px){
+  
+    .searchBox{
+        width: 170px;
+    }
+    .shoppingIcon{
+        margin-left: -20px;
+    }
+}
 
 .mergeCenter{
     justify-content: center;
@@ -203,7 +217,9 @@ margin-left:85px;
     margin-top:50px;
 }
 
-
+.otherOptions{
+    font-weight: bold;color:black;font-size: 40px;margin-top:100px;
+}
 .innerImage{
     position: absolute;
     top:0;
@@ -212,10 +228,28 @@ margin-left:85px;
 .share-plane{
 position: absolute;
 top: 0;
-right: 140px;
+right: 160px;
 }
 .iconesSpacing{
 margin-right: 8px;
+}
+.item1{height:60px;width: 70px;
+    position: absolute; left:15px;top:0;
+}
+.item2{height:60px;width: 70px;
+    position: absolute; left:15px;top:70px;
+}
+.item3{height:60px;width: 70px;
+    position: absolute; left:15px;top:140px;
+}
+.item4{height:60px;width: 70px;
+    position: absolute; left:15px;top:210px;
+}
+.item5{height:60px;width: 70px;
+    position: absolute; left:15px;top:280px;
+}
+.item6{ height:60px;width: 70px;
+    position: absolute; left:15px;top:350px;
 }
 @media(max-width:995px){
     .innerImage{
@@ -242,6 +276,9 @@ padding-top:30px;
 padding-right:30px ;
 
 
+}
+.inputBox{
+    width: 420px;height:70px;border-color: white;margin-top:-15px;
 }
 .feedBackSection{
 background-color: #EAEAEA;
@@ -316,14 +353,189 @@ width:520px;
      margin-top:-5px;
      position:relative;
  }
-  
+ .brand{
+    font-size:13px;margin-left:295px;
+ }
+ .Model{
+    font-size:13px;margin-left:295px;
+ }
+ .condition{
+    font-size:13px;margin-left:275px;
+ }
+ .color{
+    font-size:13px;margin-left:310px;
+ }
+ .size{
+    font-size:13px;margin-left:315px;
+ }
+ .Dimensions{
+   font-size:13px;margin-left:230px;
+
+ }
+  .requestButton{
+    border-color:white; height:40px;color: black;font-weight: bold;
+  }
   .orderButton{
     background-color: black; color: white;width:390px;margin-top: 10px;font-size: 23px;height: 40px;
   }
-  @media(max-width:1100px){
-      .responsiveCenter{
-        justify-content: center;
-        align-items: center;
-        display: flex;
+  .offerButton{
+    margin-left: 10px;background-color: #C6AC96;height:40px;width: 170px;border-color:#C6AC96;color: black;font-weight:bold;
+  }
+  .trustedSeller{
+    margin-left:190px;font-size: 13px;color: #C49235;font-weight: normal;position: relative;
+  }
+  .contactButton{
+    margin-left: 280px;
+  }
+  .qualityControl{
+    margin-top:110px;margin-left:60px;
+  }
+  .arrowOfOrders{
+    top:10px;left:310px;position: absolute;
+}
+.LVBag{
+    margin-right:auto;margin-left:auto;display: block;height:400px;width:390px;
+}
+.commentButton{
+    color:black;margin-top:15px;border-color:white;background-color:white;border-radius:7px;width:100px;margin-left: 320px;font-weight: 600;
+}
+.properties{
+    margin-top: 22px;margin-left:60px
+}
+  @media(max-width:1200px){
+      .secondDiv{
+          margin-top: 30px;
       }
+      .LVBag{
+          margin-right: 0;
+          margin-left: 0;
+      }
+      .innerImage{
+        position: absolute;
+        top:0;
+        left:40px;
+    }
+    .share-plane{
+    position: absolute;
+    top: 0;
+    left: 280px;
+    }
+
+    .item1{
+        position: absolute; left:-20px;top:390px;
+    }
+    .item2{
+        position: absolute; left:60px;top:390px;
+    }
+    .item3{
+        position: absolute; left:140px;top:390px;
+    }
+    .item4{
+        position: absolute; left:220px;top:390px;
+    }
+    .item5{
+        position: absolute; left:300px;top:390px;
+    }
+    .item6{
+        position: absolute; left:380px;top:390px;
+    }
+  }
+  @media(max-width:555px){
+    .item1{width: 45px;height:40px;
+        position: absolute; left:0px;top:300px;
+    }
+    .item2{width: 45px;height:40px;
+        position: absolute; left:50px;top:300px;
+    }
+    .item3{width: 45px;height:40px;
+        position: absolute; left:100px;top:300px;
+    }
+    .item4{width: 45px;height:40px;
+        position: absolute; left:150px;top:300px;
+    }
+    .item5{width: 45px;height:40px;
+        position: absolute; left:200px;top:300px;
+    }
+    .item6{width: 45px;height:40px;
+        position: absolute; left:250px;top:300px;
+    }
+      .qualityControl{
+          margin-left: 0;
+      }
+      .orderButton{
+          width: 250px;
+      }
+      .requestButton{
+          font-size: 11px;
+          font-weight:700;
+      }
+      .contactButton{
+        margin-left: 40px;
+        margin-bottom: 5px;
+      }
+      .secondDiv{
+          padding-left:30px;
+      }
+      .offerButton{
+          font-size: 11px;
+          width: 100px;
+      }
+      .trustedSeller{
+          margin-left:50px;
+      }
+      .orderButtons{
+          width:320px;
+      }
+      .arrowOfOrders {
+        top:10px;left:280px;position: absolute;
+      }
+      .LVBag{
+          height: 300px;
+          width:300px;
+      }
+      .innerImage{
+        position: absolute;
+        top:0;
+        left:40px;
+    }
+    .share-plane{
+    position: absolute;
+    top: 0;
+    left: 180px;
+    }
+    .feedBackSection{
+        width: 350px;
+    }
+    .inputBox{
+width: 280px;
+height:60px;
+    }
+    .commentButton{
+        margin-left:180px;
+    }
+    .otherOptions{
+        font-size: 30px;
+    }
+    .brand{
+        font-size:13px;margin-left:195px;
+     }
+     .Model{
+        font-size:13px;margin-left:195px;
+     }
+     .condition{
+        font-size:13px;margin-left:175px;
+     }
+     .color{
+        font-size:13px;margin-left:210px;
+     }
+     .size{
+        font-size:13px;margin-left:215px;
+     }
+     .Dimensions{
+       font-size:13px;margin-left:130px;
+    
+     }
+.properties{
+    margin-left: 20px;
+}
   }
