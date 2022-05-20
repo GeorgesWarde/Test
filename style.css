@@ -14,6 +14,10 @@ background-image:url("Images/Search.png");
 background-repeat: no-repeat;
 padding-left: 42px;
 }
+.orderButtons{
+    padding-left:0px;
+}
+
 
 .nav-item{
     padding-right: 25px;
@@ -262,6 +266,9 @@ margin-right: 8px;
         left:0px
     }
 }
+.pushDown{
+    margin-top:50px;
+}
 .alignItems{
     display: inline-block;
 }
@@ -403,6 +410,9 @@ width:520px;
     margin-top: 22px;margin-left:60px
 }
   @media(max-width:1200px){
+      .centerView{
+         margin-left:260px;
+      }
       .secondDiv{
           margin-top: 30px;
       }
@@ -441,6 +451,7 @@ width:520px;
     }
   }
   @media(max-width:555px){
+      
     .item1{width: 45px;height:40px;
         position: absolute; left:0px;top:300px;
     }
@@ -538,4 +549,99 @@ height:60px;
 .properties{
     margin-left: 20px;
 }
-  }
+
+ }
+@media(max-width:994px){
+    .centerView{
+        margin-left: 160px;
+    }
+}
+@media(max-width:770px){
+    .centerView{
+        margin-left: 70px;
+    }
+}
+@media(max-width:685px){
+    .centerView{
+        margin-left: 0px;
+    }
+}
+@media(max-width:350px){
+    .LV{
+        font-size: 30px;
+    }
+    .cloth{
+        font-size: 20px;
+    }
+    .LVBag{
+        width: 280px;
+        height: 280px;
+    }
+    .pushDown{
+        margin-top: 70px;
+    }
+    .brand{
+        font-size:13px;margin-left:150px;
+     }
+     .Model{
+        font-size:13px;margin-left:150px;
+     }
+     .condition{
+        font-size:13px;margin-left:130px;
+     }
+     .color{
+        font-size:13px;margin-left:165px;
+     }
+     .size{
+        font-size:13px;margin-left:170px;
+     }
+     .Dimensions{
+       font-size:13px;margin-left:85px;
+}
+.orderButtons{
+    width: 250px;
+    
+    padding-right: 60px;
+}
+.arrowOfOrders{
+    top:10px;left:215px;position: absolute;
+}
+.orderButton{
+    width: 150px;
+}
+.requestButton{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 8px;
+    width: 80px;
+}
+
+
+.offerButton{
+    font-size: 8px;
+    width: 80px;
+}
+.trustedSeller{
+    margin-left: 10px;
+}
+.inputBox{
+    width: 220px;
+
+}
+.commentButton{
+    margin-left: 120px;
+}
+.iconesSpacing{
+    margin-right:0;
+   
+}
+.share-plane{
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+.sameLign{
+    font-size: 6px;
+    
+}
+}
