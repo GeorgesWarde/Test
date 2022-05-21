@@ -27,10 +27,10 @@
             Sell an Item
             </button>
             </div>
-              <p class="nav-item">
+              <p class="nav-item signIn">
                 Sign In
               </p>
-              <p class="nav-item">
+              <p class="nav-item signUp">
                 Sign up
               </p>
               <img class="shoppingIcon" src="Images/Shopping Bag.png" height="25px" width="25px"/>
@@ -95,13 +95,16 @@
         </div>
       </div>
       <div  class="qualityControl ">
-       <div style="position: relative;"><button class="orderButtons">Quality Control</button><img style="top:10px;left:15px;position: absolute;" src="Images/shield.png" height="22px"width="22px">
+       <div style="position: relative;"><button class="qualityButton">Quality Control</button>
+        <img style="top:10px;left:15px;position: absolute;" src="Images/shield.png" height="22px"width="22px">
         <img class="arrowOfOrders" src="Images/arrow-ios-back-fill.png" height="18px"width="14px">
       </div>
-      <div style="position: relative; margin-top:10px;"><button  class="orderButtons">Shipping</button><img style="top:10px;left:15px;position: absolute;" src="Images/delivery-truck.png" height="22px"width="22px">
+      <div style="position: relative; margin-top:10px;"><button  class="shippingButton">Shipping</button>
+        <img style="top:10px;left:15px;position: absolute;" src="Images/delivery-truck.png" height="22px"width="22px">
         <img class="arrowOfOrders"  src="Images/arrow-ios-back-fill.png" height="18px"width="14px">
       </div>
-      <div style="position: relative; margin-top:10px;"><button  class="orderButtons">Returns</button><img style="top:10px;left:15px;position: absolute;" src="Images/return.webp" height="22px"width="22px">
+      <div style="position: relative; margin-top:10px;"><button  class="returnButton">Returns</button>
+        <img style="top:10px;left:15px;position: absolute;" src="Images/return.webp" height="22px"width="22px">
         <img class="arrowOfOrders"src="Images/arrow-ios-back-fill.png" height="18px"width="14px">
       </div>
     </div>
@@ -112,10 +115,14 @@
           
             <div class="col centerView  ">
               <div class="secondDiv" >
-                <div style="font-weight: bold;font-size: 20px;color: black;position: relative;" ><del>$2,100 </del><span style="color: red;font-weight: normal;font-size: 16px;">$1,900</span><span style="font-size: 8px;color: #146900;font-weight: normal;margin-bottom: 25px;position: absolute;top:3px;left:120px;">%70</span>
-                  <span class="trustedSeller"><img style="position: absolute;left:-14px;top:5px;" src="Images/Path 170.png" height="12px"width="12px"/><img style="position: absolute;left:-12px;top:7px;" src="Images/Path 171.png" height="8px"width="8px"/>Trusted Seller</span>
+                <div style="font-weight: bold;font-size: 20px;color: black;position: relative;" ><del>$2,100 </del>
+                  <span style="color: red;font-weight: normal;font-size: 16px;position: absolute;top:2px;left:70px;">$1,900</span>
+                  <span style="font-size: 8px;color: #146900;font-weight: normal;margin-bottom: 25px;position: absolute;top:7px;left:120px;">-70%</span>
+                  <span class="trustedSeller">
+                    <img style="position: absolute;left:-14px;top:5px;" src="Images/Path 170.png" height="12px"width="12px"/>
+                    <img style="position: absolute;left:-12px;top:7px;" src="Images/Path 171.png" height="8px"width="8px"/>Trusted Seller</span>
                 </div>
-                <p style="color:#777777 ;font-size:14px;">Estimated retail price $2,000</p>
+                <p style="color:#777777 ;font-size:12px;">Estimated retail price $2,000</p>
              <div style="font-size:12px; color:black;font-weight: 500;position: relative;margin-left:28px;">
                +15 USD Control and authentication<br>Physical control and authentication<br>by our experts. <a href="">Learn more</a>
                <img style="position: absolute;top: 0;left:-35px" src="Images/Path 169.png" height="55px"width="35px">
@@ -128,26 +135,38 @@
              <div style="margin-top: 10px;">
                <button class="requestButton">Request to view</button>
                <span><button class="offerButton">Make a offer</button></span>
-            <span style="margin-left:8px"><button style="background-color: white; width: 50px;height: 40px;border-color: white;"><img  src="Images/handbag.png" heigth="22px" width="22px"/>
+            <span style="margin-left:8px"><button class="handBag" style="background-color: white; width: 55px;height: 45px;border-color: white;">
+              <img style="margin-bottom:5px;"  src="Images/handbag.png" heigth="10px" width="20px"/>
               </button></span>
               </div>
-             <div style="margin-top:10px"><img style="margin-bottom: 10px;" src="Images/Location.png" width="28px" height="28px"><span style="font-weight: 700;">Beirut, Lebanon</span></div>
+             <div style="margin-top:10px"><img style="margin-bottom: 10px;" src="Images/Location.png" width="28px" height="28px">
+              <span style="font-weight: 700;">Beirut, Lebanon</span></div>
               </div>
               <div style="margin-top: 75px;">
                 <h4 style="font-weight: bold;">Seller</h4>
                 <div style="position: relative;"><img  src="Images/Ellipse 3.png"height="45px" width="45px">
-                  <span style="color:#C49235;font-size: 12px;"><img src="Images/Path 170.png" height="15px" width="15px">Trusted Seller<img style="position: absolute;left:52px;top:19px;" src="Images/Path 171.png"height="8px"width="8px">
-                    <span style="position: absolute;bottom:0;left: 50px;color:black;">@username0000012222</span>
-                   <span class="contactButton"> <button style="height: 20px;font-size: 8px;border-radius: 5px;color: white;background-color: #C6AC96;border-color:#C6AC96">unfollow</button>
+                  <span style="color:#C49235;font-size: 12px;">
+                    <img src="Images/Path 170.png" height="13px" width="13px"style="position:absolute;top:11px;left:57px;">
+                    <p style="position: absolute;left:70px;top:8px">Trusted Seller</p>
+                    <img style="position: absolute;left:60px;top:14px;" src="Images/Path 171.png"height="7px"width="7px">
+                    <span style="position: absolute;bottom:4px;left: 57px;color:black;">@username0000012222</span>
+                   <span class="contactButton">
+                      <button style="height: 20px;font-size: 8px;border-radius: 5px;color: white;background-color: #C6AC96;border-color:#C6AC96">unfollow</button>
                     <button style="height: 20px;font-size: 8px;border-radius: 5px;color: white;background-color: black;border-color:black">Contact</button>
                   </span></span>
                 </div>
                 <div style="margin-top: 30px;"><h4 style="font-weight:bold;">Seller Reviews</h4>
                   <div style="margin-top: 12px;"><img src="Images/Vector.png" height="30px" width="30px">
-                  <span style="font-size:8px;">@username00123<span style="margin-left: 105px;"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px">
+                  <span style="font-size:8px;">@username00123<span style="margin-left: 105px;">
+                    <img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px">
+                    <img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px">
+                    <img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px">
                   </span></span></div>
                   <div style="margin-top: 33px;"><img src="Images/Vector.png" height="30px" width="30px">
-                    <span style="font-size:8px;">@username00123<span style="margin-left: 105px;"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px">
+                    <span style="font-size:8px;">@username00123<span style="margin-left: 105px;">
+                      <img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px">
+                      <img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px">
+                      <img src="Images/Path 141.png"height="8px"width="8px"><img src="Images/Path 141.png"height="8px"width="8px">
                     </span></span></div>
                     <div style="font-size: 10px;margin-top: 22px;margin-left: 205px;"><a href="">See More</a></div>
                 </div>
